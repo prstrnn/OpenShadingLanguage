@@ -329,7 +329,7 @@ jobs:
             openexr_ver: v2.5.6
             openimageio_ver: release
             pybind11_ver: v2.8.1
-            # python_ver: 2.7   FIXME
+            # python_ver:  2.7   FIXME
             simd: avx2,f16c
             setenvs: export LLVM_VERSION=10.0.0
                             OPENIMAGEIO_CMAKE_FLAGS="-DBUILD_FMT_VERSION=7.0.1"
